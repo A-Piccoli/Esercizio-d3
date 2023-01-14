@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<title>Sample D3 viz</title>
+	<!-- loading fonts -->
+	<script src="https://d3js.org/d3.v4.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+	<link rel='preconnect' href='https://fonts.googleapis.com'>
+	<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+	<link href='https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap' rel='stylesheet'>
+	<!-- loading D3.js -->
+	<script type='text/javascript' src='https://d3js.org/d3.v6.min.js'></script>
+	<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+	<header>
+		<h1>Tax Evasion Chart, Alberto Piccoli-Filippo Masaro</h1>
+	</header>
+	<main>
+		<svg id='barchart' width='700' height='500'></svg>
+	</main>
+	<!-- loading the dataset BEFORE the dataviz -->
+	<script type='text/javascript' src='dataset.js'></script>
+	<!-- loading the dataviz AFTER the dataset -->
+	<script type='text/javascript' src='script.js'></script>
+</body>
+</html>
